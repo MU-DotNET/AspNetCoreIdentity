@@ -4,5 +4,5 @@ namespace AspNetCoreIdentityApp.Web.Models;
 
 public sealed class AppUser : IdentityUser
 {
-    public string City { get; set; }
+    public string City { get; set; } = "Test";
 }
